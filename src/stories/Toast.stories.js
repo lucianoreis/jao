@@ -1,7 +1,7 @@
 import Toast from '../notifications/Toast.vue';
 
 export default {
-  title: 'Explorer/Toast',
+  title: 'Components/Toast',
   component: Toast,
   argTypes: {
     color: { control: { type: 'select', options: ['blue-60', 'yellow-20', 'red-20', 'green-20'] } },

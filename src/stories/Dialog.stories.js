@@ -1,7 +1,7 @@
 import Dialog from '../notifications/Dialog.vue';
 
 export default {
-  title: 'Explorer/Dialog',
+  title: 'Components/Dialog',
   component: Dialog,
   argTypes: {
     type: { control: { type: 'select', options: ['informative', 'success', 'alert'] } },
